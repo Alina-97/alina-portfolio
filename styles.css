@@ -207,6 +207,16 @@ nav.scrolled {
   opacity: 0;
   animation: fadeSlideLeft 1s 0.5s forwards;
 }
+
+.hero-image {
+  width: 420px;
+  height: 520px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 12px;
+  flex-shrink: 0;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
 .hero-photo-frame {
   position: relative;
   width: clamp(280px, 35vw, 440px);
